@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.star-rating {
+  margin: 2rem;
+}
+
+.star {
+  font-size: 2rem;
+  color: red;
+  margin-right: 10px;
+  cursor: pointer;
+}
