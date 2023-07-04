@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.search-box-container {
+  margin: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box-container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-box-container input {
+  width: 300px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.search-box-container ul li {
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid rgb(124, 124, 124);
+  border-top-color: transparent;
+}
